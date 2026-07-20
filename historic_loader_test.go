@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// Used as an example test suite, some tests don't pass, that is to highlight the bugs. Use as a blueprint for decent testing
 const (
 	batchSize   = 10
 	oneMinuteMS = int64(60_000)
